@@ -1,0 +1,41 @@
+/**
+ * Repository    : JavaScript-Magnific-Popup-Gallery
+ * File Name     : f1mate-gallery.css
+ * Published by  : F1Mate
+ * Publisher URL : https://f1mate.com
+ * Contributors  : f1mate, 1amitgupta (Github)
+ * Version       : v1.0
+ * Licence       : MIT, Copyright (c) 2021 F1 Mate (f1mate)
+ * Github URL    : https://github.com/f1mate/JavaScript-Magnific-Popup-Gallery
+ */
+
+.f1mate-gallery-container {
+  position: fixed;
+  top: 0;
+  border: 1px solid;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 30px;
+  background-color: #0800008f;
+  z-index: 100000;
+}
+
+.f1mate-gallery-container .img-div {
+  margin-top: 40px;
+}
+
+.f1mate-gallery-container .img-div img {
+  object-fit: cover;
+  max-width: 80%;
+  border: 2px solid #ffffff;
+  box-shadow: 5px 5px 10px 2px #8a8a8a;
+}
+
+.f1mate-disp-none {
+  display: none;
+}
+
+.f1mate-img {
+  cursor: zoom-in;
+}
