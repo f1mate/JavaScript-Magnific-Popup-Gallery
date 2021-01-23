@@ -27,7 +27,7 @@
 
 .f1mate-gallery-container .img-div img {
   object-fit: cover;
-  max-width: 80%;
+  max-width: 100%;
   border: 2px solid #ffffff;
   box-shadow: 5px 5px 10px 2px #8a8a8a;
 }
